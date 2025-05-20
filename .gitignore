@@ -1,0 +1,57 @@
+# System files
+.DS_Store
+
+# Python environment and cache
+.hypothesis
+.mypy_cache/
+.venv/
+__pycache__/
+
+# Build and tool-generated files
+arm_test/
+buck-out/
+buck2-bin/
+build/
+cmake-android-out/
+cmake-ios-out/
+cmake-out*
+cmake-out-android/
+dist/
+ethos-u-scratch/
+executorch.egg-info
+pip-out/
+
+# Any exported models and profiling outputs
+*.bin
+*.model
+*.pte
+!test_bpe_tokenizer.bin
+!test_tiktoken_tokenizer.model
+
+# Editor temporaries
+*.idea
+*.sw[a-z]
+*~
+.~lock.*
+
+# Xcode
+xcuserdata/
+.build/
+.swiftpm/
+*.xcworkspace/
+*.xcframework/
+
+# misc
+.vscode/
+backends/apple/coreml/executorchcoreml.cpython-312-darwin.so
+cmake_wrapper.sh
+data/
+devtools/bundled_program/serialize/
+exir/_serialize/program.fbs
+exir/_serialize/scalar_type.fbs
+extension/llm/custom_ops/libcustom_ops_aot_lib.dylib
+extension/pybindings/_portable_lib.cpython-312-darwin.so
+include/
+kernels/quantized/libquantized_ops_aot_lib.dylib
+share/
+version.py
