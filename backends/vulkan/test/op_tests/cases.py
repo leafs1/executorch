@@ -1511,6 +1511,7 @@ def get_var_inputs():
         "aten.leaky_relu.default",
         "aten.round.default",
         "aten.tan.default",
+        "aten.relu6.default",
     ]
 )
 def get_unary_ops_inputs():
